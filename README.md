@@ -27,8 +27,6 @@ Time spent: 15 hours spent in total
   - [x] GIF Walkthrough: <img src="https://github.com/Rabia1995/WebSecurity-WordPress/blob/master/Exploit-2-Embedded-Link.gif" width="800">
   - [x] Steps to recreate: 
     - make a post/page containing harmful embedded link such as: ```Being Hacked: [embed src='https://youtube.com/embed/12345\x3csvg onload=alert(12341234)\x3e'][/embed] "```
-  - [x] Affected source code:
-    - [Link](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
         
 3. (Required)WordPress 4.0-4.7.2 - Authenticated Stored Cross-Site Scripting (XSS)
   - [x] Summary: 
